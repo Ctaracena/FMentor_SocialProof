@@ -1,0 +1,58 @@
+@media screen and (max-width: 1350px) {
+  .grid-container {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .grid-container {
+    width: 95vw;
+  }
+  .card {
+    width: 320px;
+    border-radius: 10px;
+    background-color: var(--Very-Dark-Magenta);
+  }
+  .testimonial {
+    font-size: 13px;
+    padding: 5px 25px 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-container {
+    width: 95vw;
+  }
+  .A {
+    grid-area: A;
+    padding-right: 0;
+    padding-left: 10px;
+  }
+  
+  .card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: var(--Very-Dark-Magenta);
+  }
+  .user-img {
+    margin: 5px 20px 0 15px;
+  }
+  
+  .testimonial {
+    font-size: 13px;
+    padding: 5px 15px 25px;
+  }
+  h3 {
+    margin-left: 20px;
+  }
+  .reviews {
+    width: 380px;
+  }
+  .guru {
+    width: 380px;
+  }
+  .tech {
+    width: 380px;
+  }
+}
+

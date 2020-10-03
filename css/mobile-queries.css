@@ -1,0 +1,247 @@
+@media screen and (max-width: 1000px) {
+  .grid-container {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+      "A"
+      "B"
+      "C"
+      "D"
+      "E";
+      margin: 30px auto 0;
+  }
+  /* Section A */
+
+.A {
+  grid-area: A;
+  padding-right: 0;
+  text-align: center;
+}
+
+.A h1 {
+  font-size: 48px;
+  margin-bottom: 40px;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.A p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+/* Section B */
+
+.B {
+  grid-area: B;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.reviews {
+  width: 70vw;
+}
+.guru {
+  width: 70vw;
+  margin-left: 0;
+}
+.tech {
+  width: 70vw;
+  margin-left: 0;
+}
+
+.stars-container {
+  margin-left: 20px;
+}
+
+/* Section C */
+
+.C {
+  grid-area: C;
+  margin-top: 20px;
+}
+
+.card {
+  width: 70vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.user-img {
+  margin: 5px 20px 0 50px;
+}
+
+.testimonial {
+  color: var(--White);
+  font-size: 13px;
+  padding: 5px 10% 25px;
+  line-height: 1.8;
+}
+
+.D {
+  grid-area: D;
+  margin-top: 0;
+}
+
+.E {
+  grid-area: E;
+  margin-top: 0;
+}
+}
+
+@media screen and (max-width: 550px) {
+  .grid-container {
+    width: 80vw;
+    margin: 30px auto 0;
+  }
+  /* Section A */
+
+.A h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* Section B */
+
+.B {
+  grid-area: B;
+  margin-top: 10px;
+}
+
+.reviews {
+  width: 80vw;
+  
+}
+.guru {
+  width: 80vw;
+  margin-left: 0;
+}
+.tech {
+  width: 80vw;
+  margin-left: 0;
+}
+
+/* Section C */
+
+.C {
+  grid-area: C;
+  margin-top: 20px;
+}
+
+.card {
+  width: 80vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.user-img {
+  margin: 5px 20px 0 40px;
+}
+
+.testimonial {
+  color: var(--White);
+  font-size: 13px;
+  padding: 5px 8% 25px;
+  line-height: 1.8;
+}
+
+.D {
+  grid-area: D;
+  margin-top: 15px;
+}
+
+.E {
+  grid-area: E;
+  margin-top: 0px;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+    width: 94vw;
+    margin: 30px auto 0;
+  }
+  /* Section A */
+
+.A h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* Section B */
+
+.B {
+  grid-area: B;
+  margin-top: 10px;
+}
+h3 {
+  margin-left: 0;
+}
+.stars-container {
+  margin-top: 14px;
+  margin-left: 0;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.reviews {
+  width: 94vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+.guru {
+  width: 94vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+.tech {
+  width: 94vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+/* Section C */
+
+.card {
+  width: 94vw;
+}
+
+.user-img {
+  margin: 5px 20px 0 30px;
+}
+
+.testimonial {
+  padding: 5px 12% 25px;
+  line-height: 1.8;
+}
+
+.D {
+  grid-area: D;
+  margin-top: -5px;
+}
+
+.E {
+  grid-area: E;
+  margin-top: -25px;
+}
+}

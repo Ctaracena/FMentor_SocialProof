@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+  --Very-Dark-Magenta: #502050;
+  --Soft-Pink: #ee68a4;
+  --Dark-Grayish-Magenta: #937b92;
+  --Light-Grayish-Magenta: #f7f2f7;
+  --White: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Spartan', sans-serif;
+  background-image: url('../images/bg-pattern-top-desktop.svg');
+  background-repeat: no-repeat;
+  
+}
+
+.grid-container {
+  width: 80vw;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "A A A A A A B B B B B B"
+    "C C C C D D D D E E E E";
+    margin: 80px auto 0;
+}
+
+/* Section A */
+
+.A {
+  grid-area: A;
+  padding-right: 90px;
+}
+
+.A h1 {
+  color: var(--Very-Dark-Magenta);
+  font-size: 48px;
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.A p {
+  color: var(--Dark-Grayish-Magenta);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+/* Section B */
+
+.B {
+  grid-area: B;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.reviews {
+  width: 460px;
+  height: 60px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--Light-Grayish-Magenta);
+}
+.guru {
+  width: 460px;
+  height: 60px;
+  margin-bottom: 16px;
+  margin-left: 35px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--Light-Grayish-Magenta);
+}
+.tech {
+  width: 460px;
+  height: 60px;
+  margin-bottom: 16px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--Light-Grayish-Magenta);
+}
+
+.stars-container {
+  margin-left: 20px;
+}
+
+h3 {
+  margin-left: 30px;
+  font-size: 14px;
+  color: var(--Very-Dark-Magenta);
+}
+
+/* Section C */
+
+.C {
+  grid-area: C;
+  margin-top: 0;
+}
+
+.card {
+  width: 350px;
+  border-radius: 10px;
+  background-color: var(--Very-Dark-Magenta);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px 20px 0 30px;
+}
+
+.user-info h4 {
+  color: var(--White);
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.user-info p {
+  color: var(--Soft-Pink);
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.testimonial {
+  color: var(--White);
+  font-size: 13px;
+  padding: 5px 30px 25px;
+  line-height: 1.8;
+}
+
+.D {
+  grid-area: D;
+  margin-top: 20px;
+}
+
+.E {
+  grid-area: E;
+  margin-top: 40px;
+}
